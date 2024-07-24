@@ -1,6 +1,6 @@
 // C:\Users\SHASHWAT TRIPATHI\Desktop\Placements\DebugSensei\src\ErrorBoundary.js
 import React, { Component } from 'react';
-import { processError } from 'debugsensei/errorProcessor';
+import { processError } from './errorProcessor.js';
 
 class ErrorBoundary extends Component {
   constructor(props) {

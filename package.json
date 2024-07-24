@@ -1,8 +1,15 @@
 {
   "name": "debugsensei",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Error Problem and Resolver NPM package ",
-  "main": "index.js",
+  "main": "index.node.js",
+  "browser":"index.browser.js",
+  "exports": {
+    ".": {
+      "node": "./index.node.js",
+      "default": "./index.browser.js"
+    }
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
