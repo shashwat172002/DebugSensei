@@ -1,0 +1,15 @@
+{
+  "name": "debugsensei",
+  "version": "1.0.0",
+  "description": "Error Problem and Resolver NPM package ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0"
+  }
+}
