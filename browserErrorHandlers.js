@@ -1,4 +1,4 @@
-// browserErrorHandlers.js
+// C:\Users\SHASHWAT TRIPATHI\Desktop\Placements\DebugSensei\src\browserErrorHandler.js
 import { processError } from './errorProcessor.js';
 
 function handleGlobalError(message, source, lineno, colno, error) {
@@ -28,8 +28,8 @@ function handleGlobalRejection(event) {
   });
 }
 
-// Set up global error handlers
-window.onerror = handleGlobalError;
-window.onunhandledrejection = handleGlobalRejection;
-
-
+export function setupBrowserErrorHandling() {
+  // Set up global error handlers
+  window.onerror = handleGlobalError;
+  window.onunhandledrejection = handleGlobalRejection;
+}
