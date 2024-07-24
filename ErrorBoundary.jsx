@@ -1,6 +1,6 @@
 // C:\Users\SHASHWAT TRIPATHI\Desktop\Placements\DebugSensei\src\ErrorBoundary.js
 import React, { Component } from 'react';
-import { processError } from './errorProcessor';
+import { processError } from 'debugsensei/errorProcessor';
 
 class ErrorBoundary extends Component {
   constructor(props) {
@@ -39,8 +39,8 @@ class ErrorBoundary extends Component {
       // You can render any custom fallback UI
       return (
         <div>
-          <h1>Error</h1>
-          {this.state.errorMsg} {/* Use state to display the error message */}
+          <h1>Error: Check console for errors causes and solution</h1>
+          
         </div>
       );
     }

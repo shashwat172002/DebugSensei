@@ -1,6 +1,6 @@
 {
   "name": "debugsensei",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Error Problem and Resolver NPM package ",
   "main": "index.js",
   "type": "module",

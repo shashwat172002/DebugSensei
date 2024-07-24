@@ -1,5 +1,4 @@
-// C:\Users\SHASHWAT TRIPATHI\Desktop\Placements\DebugSensei\src\index.js
 export { default as ErrorBoundary } from './ErrorBoundary';
-export * from './errorProcessor';
-export { setupBrowserErrorHandling } from './browserErrorHandler';
+export { setupBrowserErrorHandling } from './browserErrorHandlers';
 export { setupNodeErrorHandling } from './nodeErrorHandler';
+export * from '.debugsensei';
