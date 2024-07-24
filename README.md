@@ -103,5 +103,3 @@ To test the package locally:
 Feel free to submit issues or pull requests.
 
 ---
-
-Try updating your README with this cleaned version and see if it resolves the issue on the npmjs site. If problems persist, you might also check npm's documentation or forums for any known issues with markdown rendering.
