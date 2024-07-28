@@ -1,7 +1,17 @@
 ﻿
 # DebugSensei
 `DebugSensei` is an npm package designed to detect errors in MERN (MongoDB, Express, React, Node.js) stack applications. It uses Artificial Intelligence to analyze errors and provide possible causes and solutions. The package includes functionality for both backend (Node.js) and frontend (React) error handling.
-![alt text](image.png)
+
+## Error Display 
+
+`DebugSensei` : The Error will be shown in `Console` Like below 
+
+For `Node` Enviroment
+![alt text](image-1.png)
+
+For `React` Enviroment(inside console of Chrome)
+![alt text](image-2.png)
+
 ## Features
 
 - Global error handling for Node.js
